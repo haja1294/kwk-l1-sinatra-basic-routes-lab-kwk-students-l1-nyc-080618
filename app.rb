@@ -4,8 +4,9 @@ class App < Sinatra::Base
 get'/name'do
   "Hello my name is Haja!"
 end
+  
   get'/hometown'do 
-    "My hometown is New York City"
+    "I am from New York City"
   end
   
     get'/favorite-song'do
